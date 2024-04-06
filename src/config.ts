@@ -7,8 +7,8 @@ import type {
 import { LinkPreset } from './types/config.ts'
 
 export const siteConfig: SiteConfig = {
-  title: 'Fuwari',
-  subtitle: 'Demo Site',
+  title: 'Blog',
+  subtitle: 'under construction',
   lang: 'en',
   themeHue: 250,
   banner: {
@@ -31,9 +31,9 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  avatar: 'https://avatars.githubusercontent.com/u/16701158?v=4',
+  name: 'Llamadayo',
+  bio: 'X',
   links: [
     {
       name: 'Twitter',
@@ -48,7 +48,7 @@ export const profileConfig: ProfileConfig = {
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
-      url: 'https://github.com/saicaca/fuwari',
+      url: 'https://github.com/llamadayo/',
     },
   ],
 }
